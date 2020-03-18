@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+
+<body>
+	<center>
+		<h1>过码接口页面</h1>
+		<div style="border:1px solid #000000;width: 500px;padding: 10px;">
+
+			<form action="{% url 'index' %}" enctype="multipart/form-data" method="post">
+				<div>端口号<input type="username" name="COM"></div>
+				<div>图片<input type="file" name="file"></div>
+				<div><input type="submit"></div>
+
+			</form>
+
+		</div>
+	</center>
+</body>
+
+</html>
