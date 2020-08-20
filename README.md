@@ -1,3 +1,4 @@
+# 识别滑块验证码
 ### 1. 获取django版本
 
 > python -m django --version 
